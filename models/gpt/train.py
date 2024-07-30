@@ -3,7 +3,7 @@ import evaluate
 import nltk
 import numpy as np
 
-dataset = load_dataset("toughdata/quora-question-answer-dataset",split='train')
+dataset = load_dataset("toughdata/quora-question-answer-dataset",split='train[0:1000]')
 dataset = dataset.train_test_split(test_size=0.2)
 
 # Load a tokenizer (adjust the model name to the one you are using)
@@ -55,8 +55,7 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=2,
     output_dir='./results',
     eval_strategy='epoch',
-    logging_dir='./logs',
-    num_train_epochs=1,
+    num_train_epochs=2,
     save_strategy='epoch',
 )
 
