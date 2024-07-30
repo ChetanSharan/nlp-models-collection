@@ -3,7 +3,7 @@ import evaluate
 import nltk
 import numpy as np
 
-dataset = load_dataset("toughdata/quora-question-answer-dataset",split='train[0:1000]')
+dataset = load_dataset("toughdata/quora-question-answer-dataset",split='train')
 dataset = dataset.train_test_split(test_size=0.2)
 
 # Load a tokenizer (adjust the model name to the one you are using)
