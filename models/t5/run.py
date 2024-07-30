@@ -2,16 +2,12 @@
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 # Load the fine-tuned model
-# model = AutoModelForCausalLM.from_pretrained('./fine-tuned-model')
-# tokenizer = AutoTokenizer.from_pretrained('./fine-tuned-model')
-
-
-tokenizer = AutoTokenizer.from_pretrained("toughdata/flan-t5-base-quora-question-answer")
-model = AutoModelForSeq2SeqLM.from_pretrained("toughdata/flan-t5-base-quora-question-answer")
+tokenizer = AutoTokenizer.from_pretrained("./fine-tuned-tokenizer")
+model = AutoModelForSeq2SeqLM.from_pretrained("./fine-tuned-model")
 
 
 # Initialize a pipeline for text generation
-generator = pipeline('text2text-generation', model=model, tokenizer=tokenizer)
+generator = pipeline("text2text-generation", model=model, tokenizer=tokenizer)
 
 # Test the model
 print("")
