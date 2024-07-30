@@ -25,9 +25,19 @@ The data contains questions & answers from Quora. The prerequisite is to underst
 * Split the data in 80/20 ratio for training & testing.
 ### Step 5: Evaluation & Testing:
 * Using the standard metric like ROUGE, BLEU, and F1-score.
-### Step 6: nsights & Visualization:
+### Step 6: Insights & Visualization:
 * Plotted graph & heat maps for comparison of model performance.
 * Interesting insights for the given problem in detailed report.
 
+## Tech Stack
+Following is the detailed description of the technology used for the project.
+### Language & Libraries
+* Python 3.11.4
+* NLTK, DataSets,NumPy etc
+### Cloud Stack
+* Providor: AWS
+* Compute: EC2
+* Instance type : p3.2xlarge 
+* GPU : Tesla V100 16 GB VRAM
 Full detailed report & presentation available at: 
 [Here](https://github.com/ChetanSharan/nlp-models-collection/blob/main/documentation)
