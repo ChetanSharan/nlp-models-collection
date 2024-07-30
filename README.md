@@ -3,6 +3,7 @@ This is a case study developed for comparing multiple AI Models for a same data 
 
 ## Methodology
 The data contains questions & answers from Quora. The prerequisite is to understand the nature of data before development of the AI model can commence. Relevant literature survey was conducted, which is mentioned in the final report. Following is the summary of the case study.
+
 ## Literature Survey
 Before setting up the methodology of the project, it was necessary to do some literature survey. I started with Bag of words through RNN finally to Transformers. Followed by popular example on NLP that are available.
 
