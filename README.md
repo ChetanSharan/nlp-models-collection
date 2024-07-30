@@ -1,4 +1,4 @@
-# An Artificial Intelligence Model for Natural Language Processing |A Case Study
+# An AI Model for NLP | A Case Study
 This is a case study developed for comparing multiple AI Models for a same data set. The data is hosted on [HuggingFace](https://huggingface.co/datasets/toughdata/quora-question-answer-dataset) website.
 
 ## Methodology
