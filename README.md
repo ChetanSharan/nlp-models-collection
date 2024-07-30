@@ -45,5 +45,14 @@ Following is the detailed description of the technology used for the project.
 * T5 (Text-to-Text Transfer Transformer)
 * GPT (Generative pre-trained transformers)
 * Llama (Large Language Model Meta AI)
+* BERT (Bidirectional Encoder Representations from Transformers)
+
+## Installation & Execution
+Following are the installation & execution instructions for different models.
+* [T5 Installation Instruction](models/t5/README.md)
+* [GPT Installation Instruction](models/gpt/README.md)
+* [BERT Installation Instruction](models/bert/README.md)
+* [Llama Installation Instruction](models/llama/README.md)
+
 Full detailed report & presentation available at: 
 [Here](https://github.com/ChetanSharan/nlp-models-collection/blob/main/documentation)
