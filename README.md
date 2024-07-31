@@ -17,6 +17,12 @@ Closed book, also known as open-domain question answering, refers to the task of
 * Data is not cleaned as it is written by various authors.
 * Data has significant number of emoticons.
 * Shorthand is used extensively.
+
+#### Top 10 Most Common Words in Quora Questions and Answers
+![Data](./others/Plot01.png)
+#### Word Cloud of Quora Questions and Answers
+![Word Cloud](./others/Plot02.png)
+
 ### Step 2: Data Cleaning:
 * Removed symbols & emoticons using regular expression library.
 * Used Lemmatization.
