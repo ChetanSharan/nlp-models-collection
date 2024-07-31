@@ -1,17 +1,28 @@
-# GPT for Quora data
+# Installation & Execution Instruction for GPT
+This ReadMe is in conjection with the primary [README](../../README.md) file. Please refer that file for basic information & structure of the project.
 
-Here you will see how to use GPT model for Questions and Answers generated from the Quora dataset.
+## Setting up Envirnment
+* Make sure you have Python 3.12 & PIP version 24 installed.
+* Setup a virtual environment in python & activate it using following commands.
 
-## Installations
+`cd models/gpt`
 
-GPT model needs the following packages, install those using the pip command.
+`pip install virtualenv`
 
-**1. Transformers:** Transformers provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
+`python -m venv ~/env/gpt`
 
-**2. Datasets:** Datasets is a library for easily accessing and sharing datasets for Audio, Computer Vision, and Natural Language Processing (NLP) tasks.
+`source ~/env/gpt/bin/activate`
 
-**3. PyTorch:** PyTorch provides two high-level features: Tensor computation (like NumPy) with strong GPU acceleration along with Deep neural networks built on a tape-based autograd system
+* PIP all the required libraries before running the code, using the following command.
 
-**4. Accelerate:** Accelerate is created for PyTorch users who like to write the training loop of PyTorch models but are reluctant to write and maintain the boilerplate code needed to use multi-GPUs/TPU/fp16.
+`pip install nltk datasets evaluate numpy transformers`
 
-`pip install transformers datasets torch accelerate`
+* To train the model, execute the following command. It takes around two hours to train on the p3.2xlarge with GPU Tesla V100 16GB.
+
+`python train.py`
+
+* To run the model, execute the following command. 
+
+`python run.py`
+
+* The program will promt for questions & other instruction.
