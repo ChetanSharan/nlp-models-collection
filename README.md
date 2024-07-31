@@ -1,14 +1,13 @@
 # An AI Model for NLP | A Case Study
 This is a case study developed for comparing multiple AI Models for a same data set. The data is hosted on [HuggingFace](https://huggingface.co/datasets/toughdata/quora-question-answer-dataset) website.
 
-## Methodology
-The data contains questions & answers from Quora. The prerequisite is to understand the nature of data before development of the AI model can commence. Relevant literature survey was conducted, which is mentioned in the final report. Following is the summary of the case study.
-
 ## Literature Survey
 Before setting up the methodology of the project, it was necessary to do some literature survey. I started with Bag of words through RNN finally to Transformers. Followed by popular example on NLP that are available.
 
 Closed book, also known as open-domain question answering, refers to the task of answering a question from memory, without being given any background information. This task is different from the usual question answering task as here context is not provided and the response has to be generated.
 
+## Methodology
+The data contains questions & answers from Quora. The prerequisite is to understand the nature of data before development of the AI model can commence. Relevant literature survey was conducted, which is mentioned in the final report. Following is the summary of the case study.
 
 ### Step 1: Understanding Data & Analysis: 
 * The data has two features “question” & “answer”. 
