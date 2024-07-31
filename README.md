@@ -27,7 +27,7 @@ Closed book, also known as open-domain question answering, refers to the task of
 * p3.2xlarge reduced the execution time by 99.02 %.
 * Used CUDA for running Pytorch on GPU.
 ### Step 4: Model Selection & Training:
-* Used Llama, GPT, BERT & T5 for fine tuning the model.
+* Used Llama, GPT, BART & T5 for fine tuning the model.
 * Split the data in 80/20 ratio for training & testing.
 ### Step 5: Evaluation & Testing:
 * Using the standard metric like ROUGE, BLEU, and F1-score.
@@ -57,7 +57,7 @@ Following is the detailed description of the technology used for the project.
 Following are the installation & execution instructions for different models.
 * [T5 Installation Instruction](models/t5/README.md)
 * [GPT Installation Instruction](models/gpt/README.md)
-* [BERT Installation Instruction](models/bert/README.md)
+* [BART Installation Instruction](models/bart/README.md)
 * [Llama Installation Instruction](models/llama/README.md)
 
 Full detailed report & presentation available at: 
